@@ -1,1 +1,658 @@
 
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="google-site-verification" content="4RSLQm_v6oY_W-l6yWou51LTaM1vGgJwnokJafBLh-k" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title> Dragon City Tool Guide and Information - Ditlep - Dragon City</title>
+<link rel="shortcut icon" href="/Content/Images/favicon.ico" />
+<meta name="keywords" content="Dragon City Tool, Dragon City Gems Tool, Gems Dragon City">
+<meta name="description" content="Dragon City Guide and Information helps you play Dragon City game easier than ever. - Dragon City" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Dragon City Tool" />
+<meta property="og:image" content="/Content/Images/default-dragon.png">
+<meta property="og:title" content="Dragon City Guide and Information - Dragon City">
+<meta property="og:description" content="Dragon City Guide - Breeding Calculator - Food Calculator - Power Calculator - Tools - Dragon City">
+<link href="/Content/themes/base/jquery-ui.css" rel="stylesheet" />
+<link href="/Content/Site.min.css?v=158" rel="stylesheet" type="text/css" />
+<link href="/Content/bootstrap-3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+<link href="/Content/ui-bootstrap-csp.css" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+<script>
+        window.isVipServer = false; 
+    </script>
+<script src="/bundles/scripts?v=gVeKvdEZYXBLj1V64v86aC9OF2r6iM_oGIjZ6Q7exVQ1"></script>
+<script src="/bundles/angularJs?v=fBjqcSs0rMamZkSWWzPZMNyDHh8TUsro69qwEqR9yAM1"></script>
+<script src="/Scripts/Vendor/app.js?ts=6"></script>
+<script type="text/javascript">
+    var resources = $.parseJSON('{\"AreYouSure\":\"Are you sure ?\",\"GettingGameConfig\":\"Getting Game Config...\",\"GettingUser\":\"Getting User...please wait!!!\",\"InputXandY\":\"Please input a number in X and Y decoration\",\"Executing\":\"Executing...\",\"Completed\":\"Completed\",\"GetDragonCityInformation\":\"Get My Dragon City Information\",\"LoadingImage\":\"Loading Image. Please wait....\",\"WaitSomeSecond\":\"Completed. Waiting {0} second(s) to do Next Action\",\"DownloadDesktoptoolToGetGem\":\"Please download desktop tool to get 50 gems free\",\"AutoTransfer\":\"Auto transfer\",\"Transfering\":\"Transfering\",\"WarningAutoTransfer\":\"You should avoid turning off the display on your mobile device while using Automatic Transfer. Because Automatic Transfer will stop when the device goes to sleep mode. Do you want to continue anyway ?\",\"BeginTransfer\":\"Begin Transfer\",\"Total\":\"Total\",\"Stop\":\"Stop\",\"Waiting\":\"Waiting\",\"Second\":\"seconds\",\"ConfirmSwitchToPremiumServer\":\"Do you want to switch to Premium Server ?\",\"Starting\":\"Starting\",\"DragonIsWorking\":\"This dragon is working. You need to wait until times up.\",\"LoadingYourDragon\":\"Loading your dragons\",\"Fighting\":\"Fighting\",\"Saving\":\"Saving\",\"Left\":\"Left\",\"Right\":\"Right\",\"NewSkill\":\"New Skill\",\"OldSkill\":\"Old Skill\",\"NoDragonMatchRequirement\":\"There are no Dragons match with requirements\",\"NumberDragonMatchRequirement\":\"Only {0} dragon(s) match with requirements\",\"SetAttackTeam\":\"Set Attack Team\",\"No\":\"No\",\"BuyAnyItem\":\"Buy any Items\",\"AllTournamentsCup\":\"All Tournaments Cup\",\"BreedingResult\":\"Breeding Result\",\"SetDefenseTeam\":\"Set Defense Team\",\"AddKill\":\"Add {0} kills\",\"StoreDragonWarning\":\"Dragon will be lost stars and skills. Are you sure ?\",\"HelpTextFeedAllDragons\":\"This feature will feed all current dragons with level less than {0} to {0}. It will take times to run this feature, BE CAREFULL it will drain your food to feed all dragons.\",\"LastBreedingHistory\":\"Last {0} breeding histories of all players\",\"Male\":\"Male\",\"Female\":\"Female\",\"BreedingCount\":\"Breeding count\",\"NoResultMatch\":\"No result match\",\"InputDragonNameToSearch\":\"Input Dragon name to search\",\"ThereAreSomeErrorTryAgain\":\"There are some errors, try again please\",\"ArenaOffineAttack\":\"You have been attacked {0} time(s) while you were away. Trophies {1}\",\"Done\":\"Done\",\"RandomAllDragonNamesHelpText\":\"This feature will change each dragon name to a random beautiful name\",\"SetTournamentAttackTeam\":\"Set Tournament attack team\",\"SetPvpAttackTeam\":\"Set Pvp attack team\",\"Save\":\"Save\",\"Fight\":\"Fight\",\"ChestsManage\":\"Chests manage\",\"RewardList\":\"Reward list\",\"OrbsManage\":\"Orbs manage\",\"DragonInStorage\":\"Dragon in storage\",\"GetInformation\":\"Get Information\",\"ConsiderUsingFeature\":\"Please consider using this feature, its potential makes your account temporarily banned if you use it too many times (you may prevent join the alliance), please read Fair Play of Dragon City. Are you sure you want to continue?\",\"TopStrongestDragon\":\"Top strongest dragons\",\"TopBreedingLastNumberDays\":\"Top breeding last {0} days\",\"AllItems\":\"All Items\",\"AllDragons\":\"All Dragons\",\"BreedingCalculator\":\"Breeding calculator\",\"FoodCalculator\":\"Food Calculator\",\"PowerAndHpCalculator\":\"Power and Hp calculator\",\"HowToBreedDragon\":\"How to breed any Dragon\",\"Information\":\"Information\",\"CreateTokenWithoutProxy\":\"Create token without change proxy\",\"Events\":\"Events\",\"Calculator\":\"Calculator\",\"ViewPlayerInfo\":\"View dragon city player info\",\"EventHasEnded\":\"Event has ended\",\"Start\":\"Start\",\"End\":\"End\",\"EventIsHappeningAndIn\":\"event is happening and end in\",\"Damage\":\"Damage\",\"TopNumberStrongestDragon\":\"Top {0} strongest {1} dragons\",\"NameDragons\":\"{0} Dragons\",\"CategoryNumberDragons\":\"Category {0} Dragons\",\"Leaderboards\":\"Leaderboards\",\"HomePage\":\"Home Page\",\"NewestDragons\":\"Newest Dragons\",\"YouNeedToLoginToolThenClaim\":\"You need to login into the tool first then claim a reward\",\"DragonsRanked\":\"Dragons Ranked\",\"Win\":\"Win\",\"Complete\":\"Complete\",\"Feed\":\"Feed\",\"Hatch\":\"Hatch\",\"Breed\":\"Breed\",\"Dragons\":\"Dragons\",\"Collect\":\"Collect\",\"Gold\":\"Gold\",\"Food\":\"Food\",\"OrbRecallCalculator\":\"Orb Recall Calculator\",\"DragonComparison\":\"Dragon Comparison\"}');;
+    var bootstrap = {"gridIslandActive":0,"puzzleIslandActive":0,"fogIslandActive":2,"heroicIslandActive":1,"progressiveIslandActive":0,"towerIslandActive":0,"mazeIslandActive":0,"runnerIslandActive":0,"shouldShowBattleground":false,"shouldShowMissingRescue":false};
+    
+</script>
+<script src="/bundles/scriptApp?v=65yagDGfhR5M_oQwAqXY0_XMqxNR2uaQ5U25U3_VPkk1"></script>
+<link href="/Content/spinnerLoading.min.css" rel="stylesheet" type="text/css" />
+<script async src="/Scripts/Resources/hubs.js"></script>
+<script type="text/javascript" src="https://kendo.cdn.telerik.com/2014.2.716/js/kendo.ui.core.min.js"></script>
+<link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/webfonts/fa-solid-900.woff2" as="font" type="font/woff2" />
+<link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/webfonts/fa-regular-400.woff2" as="font" type="font/woff2" />
+<link async href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" rel="stylesheet">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3301669318477145" crossorigin="anonymous"></script>
+<script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FZB3JPRMCY"></script>
+<script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-FZB3JPRMCY');
+    </script>
+</head>
+<body>
+<div class="body" ng-app="dcApp">
+<header role="banner" class="navbar navbar-fixed-top navbar-inverse my-nav" ng-controller="headerSideBarCtrl as vm">
+<div class="container">
+<div class="navbar-header">
+<button data-toggle="collapse-side" data-target=".side-collapse" data-target-2=".side-collapse-container" type="button" class="navbar-toggle pull-left">
+<span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+</button>
+<div class="content hide-on-preload" ng-show="vm.isUserInfoLoadedSuccess">
+<h4 ng-click="vm.avatarClick()" style="margin: 0" class="in-block animate__animated animate__slideInDown" ng-if="vm.isUserInfoLoadedSuccess">{{vm.userInfo.Name || vm.userInfo.name}}</h4>
+<span ng-click="vm.avatarClick()" class="avatar animate__animated animate__slideInRight">
+<img load-default-image-if-error ng-src="https://graph.facebook.com/{{vm.userInfo.facebookId||0}}/picture?type=normal" />
+</span>
+<span class="caret" ng-click="vm.avatarClick()"></span>
+</div>
+<div>
+<search-bar-header></search-bar-header>
+</div>
+</div>
+<div class="navbar-inverse side-collapse in">
+<div class="menu-container">
+<div class="form-group container">
+<div class="lang">
+<a href="/Home/SetCulture?culture=en-US" alt="English">
+<img src="/Content/Images/en.png" height="16" width="16" title="English" alt="English" />
+</a>
+<a href="/Home/SetCulture?culture=pt">
+<img src="/Content/Images/pt.png" height="16" width="16" title="Portuguese" alt="Portuguese">
+</a>
+<a href="/Home/SetCulture?culture=id">
+<img src="/Content/Images/id.png" height="16" width="16" title="Indonesian" alt="Indonesian">
+</a>
+<a href="/Home/SetCulture?culture=vi">
+<img src="/Content/Images/vi.png" height="16" width="16" title="Tieng Viet" alt="Tiếng Việt">
+</a>
+<a href="/Home/SetCulture?culture=de">
+<img src="/Content/Images/de.jpg" height="16" width="16" title="German" alt="German">
+</a>
+<a href="/Home/SetCulture?culture=es">
+<img src="/Content/Images/es.jpg" height="16" width="16" title="Spanish" alt="Spanish">
+</a>
+<a href="/Home/SetCulture?culture=hu">
+<img src="/Content/Images/hu.jpg" height="16" title="Hungarian" width="16">
+</a>
+<a href="/Home/SetCulture?culture=hi">
+<img src="/Content/Images/hi.jpg" height="16" width="16" title="Hindi" alt="Hindi">
+</a>
+<a href="/Home/SetCulture?culture=ar">
+<img src="/Content/Images/ar.jpg" height="16" width="16" title="Arabic" alt="Arabic">
+</a>
+<a href="/Home/SetCulture?culture=tr">
+<img src="/Content/Images/tr.png" height="16" width="16" title="Turkish" alt="Turkish">
+</a>
+<a href="/Home/SetCulture?culture=th">
+<img src="/Content/Images/th.png" height="16" width="16" title="Thai" alt="Thai">
+</a>
+<a href="/Home/SetCulture?culture=zh-CN">
+<img src="/Content/Images/cn.jpg" height="16" width="16" title="Chinese" alt="Chinese">
+</a>
+<a href="/Home/SetCulture?culture=fr">
+<img src="/Content/Images/fr.png" height="16" width="16" title="French" alt="French">
+</a>
+<a href="/Home/SetCulture?culture=ru">
+<img src="/Content/Images/ru.jpg" height="16" width="16" title="Russian" alt="Russian">
+</a>
+<a href="/Home/SetCulture?culture=nl">
+<img src="/Content/Images/netherlands.png" height="16" width="16" title="Netherlands" alt="Netherlands">
+</a>
+<a href="/Home/SetCulture?culture=fil-PH">
+<img src="/Content/Images/fil.png" height="16" width="16" title="Filipino" alt="Filipino">
+</a>
+</div>
+</div>
+<div class="userInfo-input">
+<div style="margin: 10px">
+<div class="form-group">
+<div class="form-group">
+<label>Token</label>
+<input class="form-control input-sm {{vm.isMarkMode ? 'mask' :'' }}" ng-focus="vm.isMarkMode=false" ng-blur="vm.isMarkMode=true;vm.inputBlur();" ng-cloak ng-model="vm.token" placeholder="Token" />
+</div>
+<div class="form-group" ng-show="vm.isUserInfoLoadedSuccess" ng-cloak>
+<label>User Id</label>
+<input class="form-control input-sm {{vm.isMarkMode ? 'mask' :'' }}" ng-focus="vm.isMarkMode=false" ng-blur="vm.isMarkMode=true;vm.inputBlur()" ng-cloak ng-model="vm.facebookId" placeholder="User ID" />
+</div>
+<button class="btn btn-info" ng-disabled="vm.isLoading" ng-cloak type="submit" ng-click="vm.getInformationClick()" data-text="Get Information" id="btnGetDragonCityInformation">
+<span ng-show="vm.isLoading">
+Getting User...please wait!!!
+</span>
+<span ng-show="!vm.isLoading">
+Get Information
+</span>
+</button>
+</div>
+<div>
+<a class="in-block" href="/CreateToken" target="_blank">Create Token Link</a>
+</div>
+</div>
+</div>
+<nav role="navigation" class="navbar-collapse">
+<ul class="nav navbar-nav links" ng-controller="headerLinkCtrl as vm">
+<li>
+<a href="/">Home</a>
+</li>
+<li class="dropdown" ng-hide="true">
+<a class="dropdown-toggle" href="#" data-toggle="dropdown">
+<span class=" menu-title">
+Leaderboards
+</span>
+<span ng-if="menu.menus.length" class="caret"></span>
+</a>
+</li>
+<li class="dropdown" ng-hide="true">
+<a class="dropdown-toggle" href="#" data-toggle="dropdown">
+<span class=" menu-title">
+Calculator
+</span>
+<span ng-if="menu.menus.length" class="caret"></span>
+</a>
+</li>
+<li class="dropdown" ng-hide="true">
+<a class="dropdown-toggle" href="#" data-toggle="dropdown">
+<span class=" menu-title">
+Information
+</span>
+<span ng-if="menu.menus.length" class="caret"></span>
+</a>
+</li>
+<li class="dropdown" ng-hide="true">
+<a class="dropdown-toggle" href="#" data-toggle="dropdown">
+<span class=" menu-title">
+Events
+</span>
+<span ng-if="menu.menus.length" class="caret"></span>
+</a>
+</li>
+<li class="dropdown hide-on-preload" ng-repeat="menu in vm.model">
+<a class="dropdown-toggle" href="#" data-toggle="dropdown">
+<span class="menu-title" ng-class="{'dot': menu.name == vm.eventText && vm.hasAnyEventActivate()}">
+{{menu.name}}
+</span>
+<span ng-if="menu.menus.length" class="caret"></span>
+</a>
+<ul ng-if="menu.menus" class="dropdown-menu animate__fadeIn animate__faster animate__animated">
+<li ng-repeat="subMenu in menu.menus">
+<a ng-href="{{subMenu.url}}">
+<i ng-if="subMenu.icon && !subMenu.imageUrl" class="icon {{subMenu.icon}}"></i>{{subMenu.name}}
+</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="/Home/Privacy">Privacy</a>
+</li>
+<li class="hide-on-preload" ng-click="vm.toggleDarkTheme()">
+<a href="#">{{vm.isDarkTheme ? 'Light' : 'Dark'}} Mode</a>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+</header>
+<script>
+    $(document).ready(function () {
+        var sideSlider = $('[data-toggle=collapse-side]');
+        var $sel = $(sideSlider.attr('data-target'));
+        setTimeout(() => {
+
+            $('.my-nav li.dropdown a').on('click', function (event) {
+                $(this).parent().toggleClass('open');
+            });
+        }, 1000);
+
+        sideSlider.click(function (event) {
+            $sel.toggleClass('in');
+            addRemoveSidebarClassOnBody();
+        });
+
+        $('.links a').click(function () {
+            if ($(this).hasClass('dropdown-toggle'))
+                return;
+            closeSideBarMenu();
+            addRemoveSidebarClassOnBody();
+        });
+
+        $('#mainContainer').on('touchend click', function (e) {
+            if (e.target != sideSlider[0]) {
+                if (!$sel.hasClass('in')) {
+                    closeSideBarMenu();
+                    addRemoveSidebarClassOnBody();
+                    e.preventDefault();
+                    return false;
+                }
+            }
+        });
+
+        //$('.side-collapse .overlay').click(function () {
+        //    closeSideBarMenu();
+        //    addRemoveSidebarClassOnBody();
+        //});
+
+        function addRemoveSidebarClassOnBody() {
+            var $body = $('body');
+            if ($sel.hasClass('in')) {
+                $body.removeClass('side-bar-open');
+                $body.addClass('side-bar-closed');
+            }
+            else {
+                $body.removeClass('side-bar-closed');
+                $body.addClass('side-bar-open');
+            }
+        }
+
+        function closeSideBarMenu() {
+            $sel.addClass('in');
+        }
+    });
+</script> <nav class="navbar navbar-inverse with-shadow-new m-hide nav-desktop" ng-hide="false">
+<div class="container-fluid">
+<ul class="nav navbar-nav links" ng-controller="headerLinkCtrl as vm">
+<li>
+<a href="/">Home</a>
+</li>
+<li class="dropdown" ng-hide="true">
+<a class="dropdown-toggle" href="#" data-toggle="dropdown">
+<span class=" menu-title">
+Leaderboards
+</span>
+<span ng-if="menu.menus.length" class="caret"></span>
+</a>
+</li>
+<li class="dropdown" ng-hide="true">
+<a class="dropdown-toggle" href="#" data-toggle="dropdown">
+<span class=" menu-title">
+Calculator
+</span>
+<span ng-if="menu.menus.length" class="caret"></span>
+</a>
+</li>
+<li class="dropdown" ng-hide="true">
+<a class="dropdown-toggle" href="#" data-toggle="dropdown">
+<span class=" menu-title">
+Information
+</span>
+<span ng-if="menu.menus.length" class="caret"></span>
+</a>
+</li>
+<li class="dropdown" ng-hide="true">
+<a class="dropdown-toggle" href="#" data-toggle="dropdown">
+<span class=" menu-title">
+Events
+</span>
+<span ng-if="menu.menus.length" class="caret"></span>
+</a>
+</li>
+<li class="dropdown hide-on-preload" ng-repeat="menu in vm.model">
+<a class="dropdown-toggle" href="#" data-toggle="dropdown">
+<span class="menu-title" ng-class="{'dot': menu.name == vm.eventText && vm.hasAnyEventActivate()}">
+{{menu.name}}
+</span>
+<span ng-if="menu.menus.length" class="caret"></span>
+</a>
+<ul ng-if="menu.menus" class="dropdown-menu animate__fadeIn animate__faster animate__animated">
+<li ng-repeat="subMenu in menu.menus">
+<a ng-href="{{subMenu.url}}">
+<i ng-if="subMenu.icon && !subMenu.imageUrl" class="icon {{subMenu.icon}}"></i>{{subMenu.name}}
+</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="/Home/Privacy">Privacy</a>
+</li>
+<li class="hide-on-preload" ng-click="vm.toggleDarkTheme()">
+<a href="#">{{vm.isDarkTheme ? 'Light' : 'Dark'}} Mode</a>
+</li>
+</ul>
+<search-bar-header></search-bar-header>
+</div>
+</nav>
+<div class="pre-loading-page">
+<div class="spinner-overlay"></div>
+<div class="cssload-loader">
+<div class="cssload-side"></div>
+<div class="cssload-side"></div>
+<div class="cssload-side"></div>
+<div class="cssload-side"></div>
+<div class="cssload-side"></div>
+<div class="cssload-side"></div>
+<div class="cssload-side"></div>
+<div class="cssload-side"></div>
+</div>
+</div>
+<div ng-hide="false" class="hide-on-preload body-container">
+<div ng-controller="mainPageCtrl as vm" ng-init="vm.init(false)" ng-hide="false" class="hide-on-preload main-body body-content">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+<script async src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+<div ng-controller="dashboardPageCtrl as vm" class="container dashboard-page">
+<h1 class="title-s text-block text-uppercase">Dragon city guide and information, event guide, breeding calculation guide, mission guide</h1>
+<div ng-if="$root.isMobile">
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-3301669318477145" data-ad-slot="4361064565" data-ad-format="auto" data-full-width-responsive="true"></ins>
+<script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+</div>
+<div class="col-md-8 row left-column-container">
+<div class="m-show">
+<h4 class="event-title text-block">Highlight Dragon</h4>
+<div class="high-light-dragon line-limit-3">
+<dragon-description dragons="vm.highlightDragon"></dragon-description>
+</div>
+</div>
+<div class="events">
+<h4 class="event-title text-block">Current events ({{vm.model.currentEvents.length}})</h4>
+<div ng-repeat="current in vm.model.currentEvents" class="no-margin-padding col-xs-12">
+<event-box-summary model="current"></event-box-summary>
+</div>
+</div>
+<div class="clear-fix"></div>
+<div ng-if="$root.isMobile" class="center-block">
+<dfp-ad force-safe-frame collapse-if-empty refresh="3000s" ng-if="$root.isMobile" ad-unit="/22057752255/autox100">
+<dfp-size width="336" height="280"></dfp-size>
+</dfp-ad>
+</div>
+<div class="ads-header-banner ads-text-overlay" ng-if="!$root.isMobile">
+<div style="margin-top: 5px; margin-bottom: 5px;">
+<div>
+
+<ins class="adsbygoogle google-ads-top" style="display: block; text-align: center;" data-ad-client="ca-pub-3301669318477145" data-ad-format="horizontal" data-full-width-responsive="true" data-ad-slot="5600120626"></ins>
+<script>
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+                </script>
+</div>
+</div>
+</div>
+<div class="events">
+<h4 class="event-title text-block">Upcoming Events ({{vm.model.upcomingEvents.length}})</h4>
+<div ng-repeat="current in vm.model.upcomingEvents" class="no-margin-padding col-xs-12 col-md-6">
+<event-box-summary model="current" show-items="4"></event-box-summary>
+</div>
+<div class="clear-fix"></div>
+</div>
+<div class="clear-fix"></div>
+<div class="events latest-dragon">
+<div class="event-title text-block">
+<h4>Wizard Hollow</h4>
+<a class="small" href="/hollowWizard">View all</a>
+</div>
+<div class="clear-fix"></div>
+<div class="dragons hollow-wizard">
+<hollow-wizard></hollow-wizard>
+</div>
+</div>
+<div ng-if="$root.isMobile" class="center-block">
+<dfp-ad force-safe-frame collapse-if-empty refresh="3000s" ng-if="$root.isMobile" ad-unit="/22057752255/autox100">
+<dfp-size width="336" height="280"></dfp-size>
+</dfp-ad>
+</div>
+<div class="ads-header-banner ads-text-overlay" ng-if="!$root.isMobile">
+<div>
+<div style="margin-top: 5px; margin-bottom: 5px;">
+<div>
+
+<ins class="adsbygoogle google-ads-top" style="display: block; text-align: center;" data-ad-client="ca-pub-3301669318477145" data-ad-format="horizontal" data-full-width-responsive="true" data-ad-slot="5600120626"></ins>
+<script>
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+                </script>
+</div>
+</div>
+<div class="center-block">
+<dfp-ad force-safe-frame collapse-if-empty refresh="3000s" ad-unit="/22057752255/ditlep-horizontal-1">
+<dfp-size width="728" height="90"></dfp-size>
+</dfp-ad>
+</div>
+</div>
+</div>
+<div class="events latest-dragon">
+<div class="event-title text-block">
+<h4>Alliance Chest</h4>
+<a class="small" href="/alliancechest">View all</a>
+</div>
+<div class="clear-fix"></div>
+<div class="dragons alliance-chest">
+<alliance-quest></alliance-quest>
+</div>
+</div>
+<div class="events latest-dragon">
+<div class="event-title text-block">
+<h4>Newest Dragons</h4>
+<a class="small" href="/dragon/newestdragon">View all</a>
+</div>
+<div class="clear-fix"></div>
+<div class="dragons">
+<div>
+<div ng-repeat="latestDragon in vm.latestDragons" class="dragon">
+<dragon-box read-only="true" dragon="latestDragon" rich-background="true"></dragon-box>
+</div>
+</div>
+</div>
+</div>
+<div class="events latest-dragon" ng-if="$root.isMobile">
+<div class="event-title text-block">
+<h4>Quests</h4>
+<a class="small" href="/quests">View all</a>
+</div>
+<div class="dragons">
+<div>
+<quest-widget></quest-widget>
+</div>
+</div>
+</div>
+<div class="events latest-dragon top-dragon">
+<div class="event-title text-block">
+<h4>{{vm.title('Top {0} strongest {1} dragons', 'Heroic')}}</h4>
+<a class="small" href="/topattackdragons?rarity=h&top=50&top-50-strongest-heroic-dragon">View all</a>
+</div>
+<div class="dragons">
+<div>
+<div ng-repeat="topDragon in vm.topDragons['h']" class="dragon">
+<dragon-box read-only="true" dragon="topDragon"></dragon-box>
+</div>
+</div>
+</div>
+</div>
+<div class="events latest-dragon top-dragon">
+<div class="event-title text-block">
+<h4>{{vm.title('Top {0} strongest {1} dragons', 'Legend')}}</h4>
+<a class="small" href="/topattackdragons?rarity=l&top=50&top-50-strongest-legend-dragon">View all</a>
+</div>
+<div class="dragons">
+<div>
+<div ng-repeat="topDragon in vm.topDragons['l']" class="dragon">
+<dragon-box read-only="true" dragon="topDragon"></dragon-box>
+</div>
+</div>
+</div>
+</div>
+<div class="events latest-dragon  top-dragon">
+<div class="event-title text-block">
+<h4>{{vm.title('Top {0} strongest {1} dragons', 'Common')}}</h4>
+<a class="small" href="/topattackdragons?rarity=c&top=50&top-50-strongest-common-dragon">View all</a>
+</div>
+<div class="dragons">
+<div>
+<div ng-repeat="topDragon in vm.topDragons['c']" class="dragon">
+<dragon-box read-only="true" dragon="topDragon"></dragon-box>
+</div>
+</div>
+</div>
+</div>
+<div class="events latest-dragon top-dragon">
+<div class="event-title text-block">
+<h4>{{vm.title('Top {0} strongest {1} dragons', 'Epic')}}</h4>
+<a class="small" href="/topattackdragons?rarity=e&top=50&top-50-strongest-epic-dragon">View all</a>
+</div>
+<div class="dragons">
+<div>
+<div ng-repeat="topDragon in vm.topDragons['e']" class="dragon">
+<dragon-box read-only="true" dragon="topDragon"></dragon-box>
+</div>
+</div>
+</div>
+</div>
+<div class="events latest-dragon  top-dragon">
+<div class="event-title text-block">
+<h4>{{vm.title('Top {0} strongest {1} dragons', 'Rare')}}</h4>
+<a class="small" href="/topattackdragons?rarity=r&top=50&top-50-strongest-rare-dragon">View all</a>
+</div>
+<div class="dragons">
+<div>
+<div ng-repeat="topDragon in vm.topDragons['r']" class="dragon">
+<dragon-box read-only="true" dragon="topDragon"></dragon-box>
+</div>
+</div>
+</div>
+</div>
+<div class="events latest-dragon  top-dragon">
+<div class="event-title text-block">
+<h4>{{vm.title('Top {0} strongest {1} dragons', 'Very Rare')}}</h4>
+<a class="small" href="/topattackdragons?rarity=v&top=50&top-50-strongest-very-rare-dragon">View all</a>
+</div>
+<div class="dragons">
+<div>
+<div ng-repeat="topDragon in vm.topDragons['v']" class="dragon">
+<dragon-box read-only="true" dragon="topDragon"></dragon-box>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4 right-column-container">
+<div class="w-300">
+<div ng-if="!$root.isMobile">
+<h4 class="event-title text-block">Highlight Dragon</h4>
+<div class="high-light-dragon line-limit-4">
+<dragon-description dragons="vm.highlightDragonSecond"></dragon-description>
+</div>
+</div>
+<div class="top10 ads-square" ng-if="!$root.isMobile && !$root.isLocal">
+<ins class="adsbygoogle" style="display: block" data-ad-client="ca-pub-3301669318477145" data-ad-slot="5007426006" data-ad-format="auto"></ins>
+</div>
+<div class="top10" ng-if="!$root.isMobile">
+<div class="event-title text-block">
+<h4>Quests</h4>
+<a class="small" href="/quests">View all</a>
+</div>
+<quest-widget></quest-widget>
+</div>
+<div>
+<h4 class="event-title text-block">Dragon Category</h4>
+<div>
+<dragon-category-box></dragon-category-box>
+</div>
+</div>
+<div class="clear-fix"></div>
+<div class="top10 dashboard-ads">
+<dfp-ad force-safe-frame collapse-if-empty refresh="3000s" ad-unit="/22057752255/ditlep-horizontal-1">
+<dfp-size width="300" height="250"></dfp-size>
+</dfp-ad>
+</div>
+<div class="top10 dashboard-ads" ng-if="!$root.isMobile">
+<dfp-ad force-safe-frame collapse-if-empty refresh="3000s" ad-unit="/22057752255/ditlep-horizontal-1">
+<dfp-size width="300" height="600"></dfp-size>
+</dfp-ad>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+</div>
+<div class="top15 dashboard-ads ads-square">
+<ins class="adsbygoogle" style="display: block" data-ad-client="ca-pub-3301669318477145" data-ad-slot="2495759415" data-ad-format="auto" data-full-width-responsive="true">
+</ins>
+<script>
+                        (adsbygoogle = window.adsbygoogle || []).push({});
+                    </script>
+</div>
+</div>
+</div>
+</div>
+<pageslide ng-cloak ps-open="vm.slide.isOpen" ps-size="{{vm.slide.size}}" ps-element="vm.slide.element" ps-body-class="true">
+<div class="slide-container">
+<div class="slide-header">
+<p class="title">{{vm.slide.title}}</p>
+<div class="btn-list">
+<button ng-repeat="button in vm.slide.buttons" class="{{button.cssClass}}" ng-click="button.click">
+{{button.text}}
+</button>
+<button ng-if="isXxs" class="btn btn-default" ng-click="vm.slide.isOpen=false">
+Done
+</button>
+</div>
+</div>
+<div class="slide-inner">
+<div class="content-scroll">
+<div ng-view>
+</div>
+</div>
+</div>
+</div>
+</pageslide>
+</div>
+</div>
+<div class="clear-fix"></div>
+<div class="hide-on-preload footer-container">
+<h4>
+Our partners:
+</h4>
+<p>
+<a target="_blank" href="https://youtube.com/c/@Dragonik)">
+<img class="channel-icon" src="/content/Images/youtube.png" />
+Dragonik
+</a>
+</p>
+<p>
+<a target="_blank" href="https://www.facebook.com/Drag0nCityLATAM">
+<img class="channel-icon" src="/content/Images/fb.png" />
+Dragon City LATAM
+</a>
+</p>
+<p>
+<a target="_blank" href="https://youtube.com/c/JokerGaming69">
+<img class="channel-icon" src="/Content/images/youtube.png" />
+Joker Gaming
+</a>
+</p>
+<div class="text-center">
+<small>This page is not affiliated with Dragon City, or SocialPoint SL. Copyrights belong to their respective owners</small>
+</div>
+</div>
+</div>
+<div class="modal" id="modalPopup">
+</div>
+<div class="toast-message" style="display: none">
+</div>
+<script>
+        angular.element(document).ready(function () {
+            $('.pre-loading-page').hide();
+            $('.hide-on-preload').removeClass('hide-on-preload');
+        });
+
+        function imgError(img) {
+            img.onerror = '';
+            img.src = '/Content/Images/desus.png';
+            return true;
+        }
+    </script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v52afc6f149f6479b8c77fa569edb01181681764108816" integrity="sha512-jGCTpDpBAYDGNYR5ztKt4BQPGef1P0giN6ZGVUi835kFF88FOmmn8jBQWNgrNd8g/Yu421NdgWhwQoaOPFflDw==" data-cf-beacon='{"rayId":"7d4c0ee47a99463e","version":"2023.4.0","r":1,"token":"c6f669b890fd4aaab3617049a5dd6dad","si":100}' crossorigin="anonymous"></script>
+</body>
+</html>
